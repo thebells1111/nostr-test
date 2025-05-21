@@ -1,0 +1,35 @@
+<rss version="2.0" endcoding="UTF-8" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <description>Nostr Test Album</description>
+    <itunes:explicit>no</itunes:explicit>
+    <item>
+      <description>This is my test track</description>
+      <enclosure url="https://cdn.satellite.earth/cb726bd9096cc594c34ad630068cb6a9e011b064e395b76d54b570d684bd82ee.mp3" length="33" type="audio/mpeg"/>
+      <itunes:explicit>no</itunes:explicit>
+      <podcast:value type="lightning" method="keysend">
+        <podcast:valueRecipient name="Music Side Project" type="node" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" split="5"/>
+        <podcast:valueRecipient name="Steven" type="node" address="steven@getalby.com" split="95"/>
+      </podcast:value>
+      <title>Louisian - Duke Ellington</title>
+      <guid isPermaLink="false">c92b98fc-d631-438c-9164-d1d54a90d521</guid>
+      <itunes:duration>00:03:01</itunes:duration>
+      <pubDate>Wed, 21 May 2025 03:26:37 +0000</pubDate>
+      <podcast:season>1</podcast:season>
+      <podcast:episode>1</podcast:episode>
+    </item>
+    <itunes:author>Nostr Test Band</itunes:author>
+    <itunes:image href="https://cdn.satellite.earth/262b87e9d59ac91e0d06b73404504b85a412495ddf2f7fc1dbefcac680922193.jpg"/>
+    <link>https://musicsideproject.com/</link>
+    <podcast:guid>bc8dbbf2-b2a7-51f5-9d0c-e1e2125cc711</podcast:guid>
+    <podcast:value type="lightning" method="keysend">
+      <podcast:valueRecipient name="Music Side Project" type="node" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" split="5"/>
+      <podcast:valueRecipient name="Steven" type="node" address="steven@getalby.com" split="95"/>
+    </podcast:value>
+    <title>Nostr Test</title>
+    <generator>Music Side Project Studio</generator>
+    <itunes:category>Music</itunes:category>
+    <itunes:keywords>music</itunes:keywords>
+    <podcast:medium>music</podcast:medium>
+    <itunes:owner itunes:name="Nostr Test Band" itunes:email=""/>
+  </channel>
+</rss>
